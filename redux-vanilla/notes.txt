@@ -1,0 +1,16 @@
+redux 3 core concepts
+
+cake shop scenario   =>  Redux     => purpose
+Shop                  => Store    => holds the state of the application
+Intention to buy cake => Action   => Describes the changes in the state of the application
+Shopkeeper            => Reducer   => ties the store and actions together/carries out the state changes depending on the action
+
+The redux principles
+1. the state of your whole application is stored in an object tree within a single store
+    i.e maintain our app state in a single object which would be managed by the redux store
+2. the only way to change the state is to emit an action , an object describing what happened
+3. to specify how the state tree is transformed by actions , you write pure reducers
+
+
+Data Flow 
+Javascript App =>dispatch Action => reducer => redux store
