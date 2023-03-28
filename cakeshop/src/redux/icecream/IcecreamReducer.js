@@ -9,8 +9,6 @@ const icecreamReducer = (state= initialState, action) =>{
         case BUY_ICECREAM : return {
             ...state,
             numOfIcecream : state.numOfIcecream -1
-
-        
         }
 
         default : return state
@@ -19,4 +17,3 @@ const icecreamReducer = (state= initialState, action) =>{
 }
 
 export default icecreamReducer
-

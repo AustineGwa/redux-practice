@@ -1,4 +1,4 @@
-import { BUY_CAKE } from "./Constants"
+import { BUY_CAKE } from "./cakeTypes"
 
 export const buyCake = () =>{
     return{

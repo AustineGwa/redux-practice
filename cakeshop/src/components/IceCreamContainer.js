@@ -9,7 +9,7 @@ function CakeContainer (){
     return(
         <div>
             <h2>Number Of iceCream - {numOfIcecream}</h2>
-            <button onClick={() => dispatch(buyIcecream())}>Buy cake</button>
+            <button onClick={() => dispatch(buyIcecream())}>Buy Icecream</button>
         </div>
     )
 }
